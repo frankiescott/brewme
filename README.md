@@ -1,9 +1,10 @@
 # BrewMe
 
-Created to find breweries near you
-On running BrewMe.py access localhost web page and enter street name, city, and state you are starting from
-Then after selecting radius to search in wait an undisclosed amount of time before being given the shortest hamiltonian cycle
-between all breweries within your area
-(May crash on giant state search or on return of no breweries)
+This project was created in a 24 hour period from scratch for HackBU, a yearly hackathon competition sponsored by Binghamton Univeristy.
 
-Craig Wickizer, Francis Scott, Gavin Valencia
+Team:
+Francis Scott
+Craig Wickizer
+Gavin Valencia
+
+BrewMe utilizes the [Open Brewery DB](https://www.openbrewerydb.org/) and the [Google Maps API](https://cloud.google.com/maps-platform) to query and display nearby breweries based on user location with a fun twist that we call, a "Hamiltonion Beer Cycle" - an optimized round-trip path to visit each brewery, displayed in a simple and sleek web interface. 
